@@ -15,3 +15,19 @@ inhoud:
 
 **1. Javascript foto omzetten in base64 Binaire data**
 
+er word in Javascript een foto gemaakt doormiddel van: 
+```
+const video = document.getElementById('camera');
+const button = document.getElementById('make__foto')
+button.addEventListener("click", takePhoto);
+
+<video id="camera"></video>
+<section id="qrcode"></section>
+<canvas id="canvas"></canvas>
+ ```
+
+**2. Base64 POST naar Save.php**
+
+De foto word gemaakt doormiddel van ``` ctx.drawImage ```
+de foto word met ```imageDataBase64 = canvas.toDataURL("image/png", 0.8); ``` omgezet in base64. de console logt de base64 binaire data en krijgt een GIGANTISH grote string met .png erachter.
+
