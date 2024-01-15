@@ -2,6 +2,7 @@
 
 # Hoe werkt dit project:
 
+```
 inhoud: 
 1. Javascript Foto omzetten in base64 Binaire data
 2. Base64 POST naar Save.php
